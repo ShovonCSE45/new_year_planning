@@ -15,6 +15,7 @@
       background-repeat: no-repeat;
       background-size: cover;
   }
+
   /* Banner Heading Section style */
 
   .banner_section h2 {
@@ -28,6 +29,7 @@
       padding-right: 200px;
       text-align: right;
   }
+
   /* Banner Paragraph section style */
 
   .banner_section p {
@@ -48,10 +50,71 @@
       background: #F15B22;
       border-radius: 5px;
       margin-left: 1000px;
-      
+
 
   }
+
   /* Failer section designing */
   .failer_container {
-    display: flex;
+      display: flex;
   }
+
+  .failer_container .failer_image {
+      width: 569px;
+      height: 723.3px;
+      margin-top: 90px;
+      margin-left: 130px;
+  }
+
+  .failer_container .failer_info {
+      width: 3000px;
+      height: 400px;
+      margin-top: 370px;
+      margin-left: 100px;
+      margin-right: 120px;
+
+
+  }
+
+  .failer_title {
+      font-weight: 600;
+      font-size: 35px;
+      color: #151414;
+      margin-bottom: 20px;
+
+  }
+
+  .failer_desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #444343;
+      margin-bottom: 10px;
+  }
+
+  .failer_list {
+      width: 349px;
+      height: 162px;
+      color: #444343;
+      margin-left: 17px;
+
+  }
+
+  /* My Plane Section Design */
+
+  .my_plane_section {
+      width: 1050px;
+      height: 260px;
+      background-color: aqua;
+      display: flex;
+      
+      margin-top: 110px;
+      margin-left: 110px;
+
+  }
+
+  /* .my_plane_section .planning_sequence {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+  } */
