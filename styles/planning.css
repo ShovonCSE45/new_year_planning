@@ -6,6 +6,34 @@
 
   }
 
+  /* Nav bar portion styling */
+  .navbar_button {
+      float: right;
+      margin-right: 40px;
+      margin-top: 15px;
+  }
+
+  .nav_each_button {
+      width: 100px;
+      height: 40px;
+      margin-left: 10px;
+      background-color: #F15B22;
+      font-weight: 600;
+      font-size: 20px;
+      color: #F8F8F8;
+      border-radius: 15px;
+      border: none;
+      text-align: center;
+      cursor: pointer;
+  }
+  .nav_each_button:hover {
+    background-color: blueviolet;
+  }
+  .navbar_section {
+    background-color: rgb(149, 165, 165);
+    height: 70px;
+  }
+
   /* banner section styling */
 
   .banner_section {
@@ -54,6 +82,7 @@
       font-size: 20px;
       border: none;
       color: white;
+      cursor: pointer;
 
 
 
@@ -192,6 +221,7 @@
       color: #F15B22;
       border-radius: 5px;
       border: none;
+      cursor: pointer;
 
   }
 
@@ -264,5 +294,6 @@
       color: #F15B22;
       border-radius: 5px;
       border: none;
+      cursor: pointer;
 
   }
