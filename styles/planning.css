@@ -151,11 +151,14 @@
   .mindset_section {
       width: 1040px;
       height: 250px;
-      background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+      /* background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%); */
       border-radius: 8px;
       margin-left: 130px;
       margin-top: 70px;
-      background-image: url('../images/watch.png');
+      /* background-image: url('../images/watch.png'); */
+      background-image:
+          linear-gradient(to right, #d84d0d, rgba(194, 176, 190, 0.73)),
+          url('../images/watch.png');
   }
 
   .mindset_sub_section {
