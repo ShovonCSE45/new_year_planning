@@ -50,6 +50,11 @@
       background: #F15B22;
       border-radius: 5px;
       margin-left: 1000px;
+      font-weight: 600;
+      font-size: 20px;
+      border: none;
+      color: white;
+
 
 
   }
@@ -185,6 +190,8 @@
       font-size: 20px;
       text-align: center;
       color: #F15B22;
+      border-radius: 5px;
+      border: none;
 
   }
 
@@ -255,5 +262,7 @@
       font-weight: 600;
       font-size: 20px;
       color: #F15B22;
+      border-radius: 5px;
+      border: none;
 
   }
