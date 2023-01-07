@@ -102,19 +102,86 @@
 
   /* My Plane Section Design */
 
-  .my_plane_section {
-      width: 1050px;
-      height: 260px;
-      background-color: aqua;
-      display: flex;
-      
-      margin-top: 110px;
-      margin-left: 110px;
+  .my_plan_section {
+      margin-top: 130px;
+      width: 1141px;
+      height: 299.96px;
+      margin-left: 280px;
 
   }
 
-  /* .my_plane_section .planning_sequence {
-    display: flex;
-    margin-top: 20px;
-    justify-content: space-around;
-  } */
+  .plan_container {
+      display: flex;
+
+
+
+  }
+
+  .plan {
+      width: 224px;
+      height: 197px;
+      margin-top: 30px;
+  }
+
+  .plan_title {
+      font-weight: 700;
+      font-size: 26px;
+      color: #151414;
+
+
+
+  }
+
+  .plan_description {
+      font-weight: 400;
+      font-size: 18px;
+
+      color: #737272;
+  }
+
+  .plan_section_title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #151414;
+      margin-left: 300px;
+
+  }
+
+  /* Mindset section design */
+  .mindset_section {
+      width: 1040px;
+      height: 250px;
+      background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%);
+      border-radius: 8px;
+      margin-left: 130px;
+      margin-top: 70px;
+      background-image: url('../images/watch.png');
+  }
+
+  .mindset_sub_section {
+      width: 459px;
+      height: 200px;
+      /* border: 3px solid greenyellow; */
+      margin-left: 40px;
+
+  }
+
+  .mindset_title {
+      font-weight: 700;
+      font-size: 40px;
+      color: #FFFFFF;
+      padding-top: 45px;
+
+  }
+
+  .call_btn {
+      width: 160px;
+      height: 64px;
+      margin-top: 10px;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: center;
+      color: #F15B22;
+
+  }
+  /* Footer Section Style */
